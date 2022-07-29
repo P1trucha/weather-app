@@ -1,9 +1,29 @@
 /* Input Section */
+:focus{
+  outline:none;
+}
+.input-search-weather{
+  font-size:3vh;
+  font-family:'Times New Roman', Times, serif
+}
+
 
 .input-search-weather input{
   border:none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(49, 1, 71, 0.436);
   width:fit-content;
-  width:10%;
-
+  width:2%;
+  padding-left:1vh;
+  transition: 0.5s;
 }
+.input-search-weather input:focus{
+  width: 10%;
+  transition: 0.5s;
+  border-bottom: 1px solid #5b5da640;
+}
+
+.input-search-weather input:after{
+  width:10%;
+}
+
+

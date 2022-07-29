@@ -34,8 +34,8 @@ export const WeatherApp = () => {
                             value={location}
                             onChange={event => setLocation(event.target.value)}
                             onKeyPress={searchLocation}
-                            type="text">
-                        </input>
+                            type="text"/>
+                        <span className ="border"></span>
                         <p className ="text-muted">It's </p>
                     </div>
                 </Col>
