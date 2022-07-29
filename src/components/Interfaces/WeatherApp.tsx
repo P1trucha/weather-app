@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import axios from 'axios';
 import {WeatherData} from './WeatherInterface';
-
-
+import Container from 'react-bootstrap/Container';
 export const WeatherApp = () => {
     const [data, setData] = useState<WeatherData[]>([]);
     const [location, setLocation] = useState<string>('')
@@ -19,6 +18,10 @@ export const WeatherApp = () => {
     }
 
 return <>
+<Container fluid>
+
+</Container>
+
 
 
 
